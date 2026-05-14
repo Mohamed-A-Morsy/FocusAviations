@@ -238,7 +238,7 @@ export function Contact() {
 
       await emailjs.send(
         "service_b75k5y3",
-        "service_b75k5y3",
+        "template_2d362ol",
         {
           from_name: formData.name,
           from_email: formData.email,
