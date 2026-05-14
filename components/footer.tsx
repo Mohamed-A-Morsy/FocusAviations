@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Plane } from "lucide-react";
+import Image from "next/image";
 
 const navigation = {
   main: [
@@ -26,7 +27,14 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link href="#home" className="flex items-center gap-2">
               <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg">
-                <Plane className="h-6 w-6 text-primary-foreground" />
+                {/* <Plane className="h-6 w-6 text-primary-foreground" /> */}
+                  <Image
+                  className = "rounded"
+                src="/icon.png"
+                alt="Focus Aviations Logo"
+                width={40}
+                height={40}
+              />
               </div>
               <span className="text-xl font-bold text-background">
                 Focus{" "}
