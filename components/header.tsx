@@ -4,6 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { Menu, X, Plane } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image";
 
 const navigation = [
   { name: "Home", href: "#home" },
@@ -21,11 +22,18 @@ export function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <div className="flex lg:flex-1">
           <Link href="#home" className="flex items-center gap-2 -m-1.5 p-1.5">
-            <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg">
-              <Plane className="h-6 w-6 text-primary-foreground" />
+            <div className="flex items-center justify-center w-10 h-10  rounded-lg">
+              {/* <Plane className="h-6 w-6 text-primary-foreground" /> */}
+              <Image
+                src="/icon.png"
+                alt="Focus Aviations Logo"
+                width={40}
+                height={40}
+              />
+
             </div>
             <span className="text-xl font-bold text-foreground">
-              Focus <span className="text-primary">Logistics</span>
+              Focus <span className="text-primary">Aviations</span>
             </span>
           </Link>
         </div>
