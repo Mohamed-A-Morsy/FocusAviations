@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { Plane } from "lucide-react"
+import Link from "next/link";
+import { Plane } from "lucide-react";
 
 const navigation = {
   main: [
@@ -15,7 +15,7 @@ const navigation = {
     { name: "Documentation", href: "#services" },
     { name: "Express Services", href: "#services" },
   ],
-}
+};
 
 export function Footer() {
   return (
@@ -29,13 +29,15 @@ export function Footer() {
                 <Plane className="h-6 w-6 text-primary-foreground" />
               </div>
               <span className="text-xl font-bold text-background">
-                Focus <span className="text-primary-foreground/80">Logistics</span>
+                Focus{" "}
+                <span className="text-primary-foreground/80">Aviations</span>
               </span>
             </Link>
             <p className="mt-4 text-background/70 max-w-md leading-relaxed">
-              Focus Logistics is a premier General Sales Agent (GSA) based in Egypt, 
-              providing comprehensive air cargo solutions for airlines and businesses 
-              across the region.
+              Focus Aviations delivers professional air cargo GSA services,
+              helping airlines expand their cargo presence in the Egyptian
+              market through strategic sales, operational support, and reliable
+              logistics coordination.
             </p>
           </div>
 
@@ -80,10 +82,11 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-background/20">
           <p className="text-center text-sm text-background/60">
-            &copy; {new Date().getFullYear()} Focus Logistics. All rights reserved. | General Sales Agent - Egypt
+            &copy; {new Date().getFullYear()} Focus Aviations. All rights
+            reserved. | General Sales Agent - Egypt
           </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
