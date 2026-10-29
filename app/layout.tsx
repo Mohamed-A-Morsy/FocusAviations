@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Focus Aviations | General Sales Agent - Air Cargo Solutions in Egypt',
   description: 'Focus Aviations is a premier General Sales Agent (GSA) providing comprehensive air cargo services in Egypt. Expert cargo booking, handling, and logistics solutions.',
-  generator: 'v0.app',
+  generator: 'Mohamed.Morsy',
   icons: {
     icon: [
       {
