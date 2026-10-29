@@ -11,7 +11,9 @@ const navigation = [
   { name: "About", href: "#about" },
   { name: "Services", href: "#services" },
   { name: "Why Us", href: "#why-us" },
+  { name: "Our Branches", href: "#branches" },
   { name: "Contact", href: "#contact" },
+
 ]
 
 export function Header() {
@@ -22,13 +24,12 @@ export function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <div className="flex lg:flex-1">
           <Link href="#home" className="flex items-center gap-2 -m-1.5 p-1.5">
-            <div className="flex items-center justify-center w-10 h-10  rounded-lg">
-              {/* <Plane className="h-6 w-6 text-primary-foreground" /> */}
+            <div className="flex items-center justify-center w-25 h-10  rounded-lg">
               <Image
-                src="/icon.png"
+                src="/icon.jpeg"
                 alt="Focus Aviations Logo"
-                width={40}
-                height={40}
+                width={70}
+                height={70}
               />
 
             </div>

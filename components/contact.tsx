@@ -57,7 +57,7 @@
 //                       Office Address
 //                     </h4>
 //                     <p className="mt-1 text-muted-foreground">
-                     
+
 //                       Cairo, Egypt
 //                     </p>
 //                   </div>
@@ -72,7 +72,7 @@
 //                   <div>
 //                     <h4 className="font-semibold text-foreground">Phone</h4>
 //                     <p className="mt-1 text-muted-foreground">
-                    
+
 //                       +20 10 0249 4770
 //                     </p>
 //                   </div>
@@ -277,7 +277,7 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-background">
+    <section id="contact" className="py-24 bg-card">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center mb-16">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-primary">
@@ -310,11 +310,11 @@ export function Contact() {
 
                   <div>
                     <h4 className="font-semibold text-foreground">
-                      Office Address
+                      Main Office
                     </h4>
 
                     <p className="mt-1 text-muted-foreground">
-                      Cairo, Egypt
+                      Building 5, Abdel Hamid Badawy Street, Block 1258, Sheraton, El Nozha, Cairo, Egypt.
                     </p>
                   </div>
                 </div>
@@ -342,7 +342,11 @@ export function Contact() {
                     <h4 className="font-semibold text-foreground">Email</h4>
 
                     <p className="mt-1 text-muted-foreground">
-                      sales@focusaviations.com
+                      <ul>
+                        <li>sales@focusaviations.com</li>
+                        <li>Gm@focusaviations.com</li>
+                        <li>Operation@focusaviations.com</li>
+                      </ul>
                     </p>
                   </div>
                 </div>
